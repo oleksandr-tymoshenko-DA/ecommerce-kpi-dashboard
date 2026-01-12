@@ -1,18 +1,48 @@
-# E-commerce KPI Dashboard
+# E-commerce KPI Dashboard (Tableau)
 
-SQL analysis and Tableau dashboard for e-commerce KPIs.
+## 🔗 Dashboard
+[View dashboard on Tableau Public]([PASTE_YOUR_TABLEAU_PUBLIC_LINK_HERE](https://public.tableau.com/app/profile/oleksandr.tymoshenko2775/viz/E-commerce_KPI_Dashboard/E-commerceSalesPerformanceDashboard?publish=yes))
 
-## KPIs
-- Total Revenue
-- Total Orders
-- Total Profit
+## 📊 Project Overview
+This project presents an interactive **E-commerce KPI Dashboard** built in Tableau.
+The dashboard is designed to analyze sales performance, profitability, and order distribution.
+
+It allows users to:
+- monitor key business KPIs,
+- analyze revenue by product category,
+- compare successful vs unsuccessful orders,
+- explore geographic distribution of orders across US states.
+
+---
+
+## 📌 Key KPIs
+- Total Revenue  
+- Total Orders  
+- Total Profit  
+- Profit Margin  
 - Average Order Value (AOV)
-- Profit Margin
 
-## Tools
-- SQL (PostgreSQL)
-- Tableau Public
+---
 
-## Dashboard
-🔗 https://public.tableau.com/app/profile/oleksandr.tymoshenko2775/viz/E-commerce_KPI_Dashboard_twbx/E-commerceSalesPerformanceDashboard?publish=yes
+## 📈 Visualizations
+- **KPI Cards** – high-level business performance overview  
+- **Revenue by Category (Successful vs Unsuccessful Orders)**  
+- **Orders by State (US map)**  
+
+---
+
+## 🎛 Dashboard Filters
+- **KPI Year** → KPI cards only  
+- **Analysis Year + Category** → Revenue by Category chart and US State map  
+
+---
+
+## 🧮 Data Preparation
+Data was prepared using SQL and exported to CSV files for Tableau.
+
+Example KPI logic:
+```sql
+SUM(Sales) AS revenue,
+SUM(Profit) AS profit,
+SUM(Profit) / NULLIF(SUM(Sales), 0) AS profit_margin
 
