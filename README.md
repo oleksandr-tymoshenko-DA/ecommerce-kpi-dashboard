@@ -44,8 +44,10 @@ that aggregate transactional data into daily KPIs and category-level breakdowns.
 These views were exported to CSV files and used directly in Tableau.
 
 Core KPI calculations include:
+```sql
 SUM(Sales)  AS revenue,
 SUM(Profit) AS profit,
 SUM(Profit) / NULLIF(SUM(Sales), 0) AS profit_margin
+Example KPI logic:
 
 
