@@ -48,6 +48,6 @@ Core KPI calculations include:
 SUM(Sales)  AS revenue,
 SUM(Profit) AS profit,
 SUM(Profit) / NULLIF(SUM(Sales), 0) AS profit_margin
-Example KPI logic:
+
 
 
