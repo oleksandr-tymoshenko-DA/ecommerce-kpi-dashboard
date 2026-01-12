@@ -1,7 +1,7 @@
 # E-commerce KPI Dashboard (Tableau)
 
 ## 🔗 Dashboard
-[View dashboard on Tableau Public]([PASTE_YOUR_TABLEAU_PUBLIC_LINK_HERE](https://public.tableau.com/app/profile/oleksandr.tymoshenko2775/viz/E-commerce_KPI_Dashboard/E-commerceSalesPerformanceDashboard?publish=yes))
+[View dashboard on Tableau Public](https://public.tableau.com/app/profile/oleksandr.tymoshenko2775/viz/E-commerce_KPI_Dashboard/E-commerceSalesPerformanceDashboard?publish=yes)
 
 ## 📊 Project Overview
 This project presents an interactive **E-commerce KPI Dashboard** built in Tableau.
